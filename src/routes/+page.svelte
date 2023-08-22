@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div class="column">
-	<h1>Today's top movies</h1>
+	<h1>Les vins de la semaine</h1>
 
 	<a href="/movies/{data.featured.id}">
 		<img
@@ -38,9 +38,9 @@
 	</a>
 </div>
 
-<Carousel title="Trending" href="/movies/trending" movies={data.trending} />
-<Carousel title="Now playing" href="/movies/now_playing" movies={data.now_playing} />
-<Carousel title="Upcoming" href="/movies/upcoming" movies={data.upcoming} />
+<Carousel title="Tendance" href="/movies/trending" movies={data.trending} />
+<Carousel title="Dispo" href="/movies/now_playing" movies={data.now_playing} />
+<Carousel title="Bientot" href="/movies/upcoming" movies={data.upcoming} />
 
 <style>
 	a {

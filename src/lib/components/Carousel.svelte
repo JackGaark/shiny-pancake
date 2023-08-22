@@ -10,7 +10,7 @@
 
 <h2 class="column">
 	{title}
-	{#if href}<a {href}>see all</a>{/if}
+	{#if href}<a {href}>voir tous</a>{/if}
 </h2>
 
 <div class="carousel">

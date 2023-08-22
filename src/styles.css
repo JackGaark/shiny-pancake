@@ -6,10 +6,11 @@
 :root {
 	--side: 1rem;
 	--column: 80rem;
-	--accent: hsl(1, 59%, 50%);
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color: #ccc;
-	background: radial-gradient(circle at 50% 0%, hsl(0, 0%, 8%) 0%, hsl(0, 0%, 2%) 100%);
+	--accent: hsl(205, 100, 87);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #1e1e1e;
+	background-color: #bde3ff;
 	background-attachment: fixed;
 	background-size: 100vw 100vh;
 }
@@ -19,17 +20,24 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: hsl(205, 100, 87);
 }
 
 ::selection {
 	background: var(--accent);
-	color: black;
+	color: hsl(205, 100, 87);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 400;
-	font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
-	color: white;
+	font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow',
+		sans-serif-condensed, sans-serif;
+	color: black;
 	margin: 0 0 0.5em 0;
 	line-height: 1.1;
 }
@@ -43,7 +51,8 @@ a {
 	color: inherit;
 }
 
-input, button {
+input,
+button {
 	font-family: inherit;
 	font-size: inherit;
 }

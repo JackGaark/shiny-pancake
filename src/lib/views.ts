@@ -5,15 +5,15 @@ interface View {
 
 export const views: Record<string, View> = {
 	trending: {
-		title: 'Trending',
+		title: 'Tendance',
 		endpoint: 'trending/movie/day'
 	},
 	now_playing: {
-		title: 'Now playing',
+		title: 'Dispo',
 		endpoint: 'movie/now_playing'
 	},
 	upcoming: {
-		title: 'Upcoming',
+		title: 'Bientot',
 		endpoint: 'movie/now_playing'
 	}
 };

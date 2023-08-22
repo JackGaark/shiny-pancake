@@ -37,7 +37,7 @@
 </div>
 
 {#if data.movie.recommendations.results.length > 0}
-	<Carousel title="You might also like..." movies={data.movie.recommendations.results} />
+	<Carousel title="Vous pouvez aimez aussi..." movies={data.movie.recommendations.results} />
 {/if}
 
 <style>
