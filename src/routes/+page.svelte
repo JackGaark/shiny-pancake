@@ -63,4 +63,5 @@
 		object-position: 50% 75%;
 		filter: drop-shadow(0 0 3rem black) drop-shadow(0 0 0.5rem black);
 	}
+	
 </style>

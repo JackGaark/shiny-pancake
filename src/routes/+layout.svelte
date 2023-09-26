@@ -27,7 +27,7 @@
 	<a class="logo" href="/"><img class="logo" alt="SvelteFlix" src={logo} /></a>
 
 	<div class="links">
-		<a href="/search">Search</a>
+		<a href="/search">Recherche</a>
 
 		{#if data.user}
 			<a href="/watchlist">Watchlist</a>
@@ -36,7 +36,7 @@
 				<button>Log out</button>
 			</form>
 		{:else}
-			<a href="/login">Log in or register</a>
+			<a href="/login">Log in ou enregistrer</a>
 		{/if}
 	</div>
 </nav>

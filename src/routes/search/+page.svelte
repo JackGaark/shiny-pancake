@@ -5,7 +5,7 @@
 </script>
 
 <div class="column flex">
-	<h1>Search</h1>
+	<h1>Recherche</h1>
 
 	<form>
 		<input name="query" value={data.query} autocomplete="off" spellcheck="false" />
